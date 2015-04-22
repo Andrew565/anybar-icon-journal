@@ -17,6 +17,6 @@ alias abi="anybar-icons"
 
 # AnyBar Log
 alias anybar-log="tail -10 ~/anybar.log"
-alias abl="anybarlog"
+alias abl="anybar-log"
 alias anybar-log-full="cat ~/anybar.log"
 alias ablf="anybar-log-full"

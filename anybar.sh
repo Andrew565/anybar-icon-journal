@@ -18,9 +18,8 @@ alias abi="anybar-icons"
 # AnyBar Log
 function anybar-log {
   NUMBER=$1
-  : ${NUMBER:=9}
-  LIMIT=$(($NUMBER + 1))
-  tail -n $LIMIT ~/anybar.log
+  : ${NUMBER:=10}
+  tail -n $NUMBER ~/anybar.log
 }
 alias abl="anybar-log"
 alias anybar-log-full="cat ~/anybar.log"
